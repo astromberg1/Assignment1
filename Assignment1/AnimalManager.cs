@@ -1,20 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Assignment1
     {
-    public partial class Form1 : Form
+
+
+
+
+
+    public class AnimalManager
         {
-        public Form1()
+
+        private List<Animal> m_animalList;
+
+        public AnimalManager()
             {
-            InitializeComponent();
+
+            m_animalList = new List<Animal>();
             }
+
+
+
         }
     }
